@@ -79,7 +79,7 @@ def read_file(filename):
 			x = point_match.group(1)
 			y = point_match.group(2)
 			points.append((x,y))
-	print(points)
+	#print(points)
 	return points
 
 def main(filename,algorithm):
