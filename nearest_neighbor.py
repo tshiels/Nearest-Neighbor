@@ -10,12 +10,10 @@ def dist(p1, p2):
 
 #Run the divide-and-conquor nearest neighbor 
 def nearest_neighbor(points):
-
 	L = []
 	R = []
 	#change strings to floats and sorts by x value
 	points = sorted(points, key=lambda x: float(x[0]))
-
 
 	if len(points) <= 3:
 		return brute_force_nearest_neighbor(points)
